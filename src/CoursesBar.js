@@ -1,14 +1,16 @@
 import React from 'react'
 
-export default function CoursesBar() {
+export default function CoursesBar(props) {
   return (
-    <div className="course--box">
-      <div className="course--box--content">
-      <img className="course--logo" src="https://img.icons8.com/external-solid-adri-ansyah/64/ffffff/external-ui-basic-ui-solid-adri-ansyah-2.png" width="32px"/>
-      <p>UI/UX</p>
-      <p>Design</p>
-      <hr/>
-      </div> 
+    <div className="course--grid">
+        <div className="course--box">
+          <div className="course--box--content">
+            <img className="course--logo" src={props.item.image} width="32px"/>
+            <p>{props.item.p1}</p>
+            <p>{props.item.p2}</p>
+            <hr/>
+          </div> 
+       </div>
     </div>
   )
 }
