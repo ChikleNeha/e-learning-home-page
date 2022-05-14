@@ -71,7 +71,14 @@ button:hover {
 }
 
 .the--divs {
-  width: 200px;
+  width: 290px;
   height: 200px;
-  background: #7050c1;
+  background: #dfd8f1;
+  border-radius: 5px;
+  border: 1px solid #7050c1;
+}
+
+.new--data {
+  display: flex;
+  justify-content: space-around;
 }

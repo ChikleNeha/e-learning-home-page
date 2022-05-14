@@ -30,7 +30,10 @@ export default function Home() {
                 </div>
             </div>
             <h4>Browse top essential career courses</h4>
-            <Div />
+            <div className="new--data">
+               {newData}
+            </div>
+            
         </div>
     </div>
 
