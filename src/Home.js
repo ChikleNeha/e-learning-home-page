@@ -5,6 +5,7 @@ import Div from './Div'
 import Div2 from './Div2'
 import Courses from './Courses'
 import coursesData from './coursesData'
+import Benefits from './Benefits'
 
 export default function Home() {
 
@@ -51,7 +52,7 @@ export default function Home() {
                 {newCoursesData}
               </div>
             </div>
-            
+            <Benefits />
         </div>
     </div>
 

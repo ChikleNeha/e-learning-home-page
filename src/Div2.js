@@ -14,8 +14,8 @@ export default function Div2() {
       </div>
     </div>
     <div className="the--courses--text">
-        <h3>Our Course</h3>
-        <h1>Discover Our Popular Courses</h1>
+        <h3 id="h3--tag--heading--text">Our Course</h3>
+        <h1 id="h1--tag--heading--text">Discover Our Popular Courses</h1>
         <p> Instead of ranking courses by reviews, we rank by the number of students who enrolled in the course. In some cases, the best online classes based on reviews are also the courses with the most enrollments. In other cases, courses with large enrollments only have average reviews.</p>
       </div>
   </div>
