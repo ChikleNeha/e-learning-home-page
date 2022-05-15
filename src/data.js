@@ -1,7 +1,7 @@
 export default [
   {
     id : 1,
-    image : "https://img.icons8.com/ios-glyphs/30/ffffff/google-classroom.png",
+    image : "https://img.icons8.com/ios/50/000000/google-classroom.png",
     p1 : "Live Class",
     p2 : "Live Classes Online provides engaging instructor led content for people everywhere and of all ages, without having to leave the house",
   },

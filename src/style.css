@@ -73,12 +73,29 @@ button:hover {
 .the--divs {
   width: 290px;
   height: 200px;
-  background: #dfd8f1;
+  background: #b197c9;
   border-radius: 5px;
-  border: 1px solid #7050c1;
 }
 
 .new--data {
   display: flex;
   justify-content: space-around;
+}
+
+.the--div--inside {
+  height: 160px;
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.the--div--inside p {
+  font-size: 14px;
+  margin-top: -30px;
+  
+}
+
+.the--div--inside h6 {
+  font-size: 18px;
+  margin-top: 10px;
 }
