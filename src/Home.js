@@ -7,6 +7,7 @@ import Courses from './Courses'
 import coursesData from './coursesData'
 import Benefits from './Benefits'
 import Div6 from './Div6'
+import Footer from './Footer'
 
 export default function Home() {
 
@@ -55,6 +56,7 @@ export default function Home() {
             </div>
             <Benefits />
             <Div6 />
+            <Footer />
         </div>
     </div>
 

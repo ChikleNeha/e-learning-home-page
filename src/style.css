@@ -232,3 +232,13 @@ button:hover {
 #div6 img {
   margin-left: 40px;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #2a233a;
+}
+
+.footer h1 {
+  font-size: 23px;
+}
