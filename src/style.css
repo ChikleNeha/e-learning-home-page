@@ -177,6 +177,7 @@ button:hover {
   margin-right: auto;
   color: #2a233a;
   letter-spacing: 0.2px;
+  margin-bottom: 50px;
 }
 
 #h1--tag--heading--text {
@@ -190,4 +191,36 @@ button:hover {
 
 .benefits--text {
   display: flex;
+  letter-spacing: 0.2px;
+  color: #2a233a;
+}
+
+.benefits--text h3 {
+  color: #11003d;
+  margin-bottom: -5px;
+  font-size: 20px;
+  
+}
+
+.benefits--text p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.benefits--text--part1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 1000px;
+  
+}
+
+.benefits--text--part2 {
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: right;
+  margin-left: -40px;
+}
+
+.benefits--whole--div {
+  margin-top: 150px;
 }

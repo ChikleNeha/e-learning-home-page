@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Benefits() {
   return (
-    <div>
+    <div className="benefits--whole--div">
       <div  className="the--courses--text">
         <h3 id="h3--tag--heading--text">How It Works</h3>
         <h1 id="h1--tag--heading--text">Benefits Of Online Education</h1>
       </div>
           <div className="benefits--text">
-            <div>
+            <div className="benefits--text--part1">
               <div>
                 <h3>Flexiblity</h3>
                 <p>Students have the freedom to juggle their careers and school because they aren't tied down to a fixed schedule.</p>
@@ -23,8 +23,8 @@ export default function Benefits() {
               </div>
             </div>
           
-    <img src="https://static.vecteezy.com/system/resources/previews/001/993/204/non_2x/student-studying-with-laptop-for-online-school-education-vector.jpg" width="660px"/>
-        <div>
+    <img src="https://img.freepik.com/free-vector/student-with-laptop-sitting-huge-books-library-male-character-studying-computer-flat-vector-illustration-online-education-knowledge-concept-banner-website-design-landing-web-page_74855-22550.jpg?t=st=1652597560~exp=1652598160~hmac=39102d9541228739c6eef6cee414e75f4e7a5ecc1496430f8d6f7e496cf7ffe5&w=740" width="600px"/>
+        <div className="benefits--text--part2">
               <div>
                 <h3>Documentation</h3>
                 <p>All the information that you will need will be safely stored in an online database. This includes things like live discussion documents, training materials and emails.</p>
