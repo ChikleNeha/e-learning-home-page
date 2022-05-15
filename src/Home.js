@@ -32,7 +32,6 @@ export default function Home() {
   return (
     <div>
         <div className="home">
-            <Nav />
             <div className="home--body">
                 <img src="https://img.freepik.com/free-vector/web-development-programming-languages-css-html-it-ui-programmer-cartoon-character-developing-website-coding-flat-illustration-banner_128772-898.jpg?w=740" width="690px"/>
                 <div  className="image--text1">
@@ -56,7 +55,6 @@ export default function Home() {
             </div>
             <Benefits />
             <Div6 />
-            <Footer />
         </div>
     </div>
 
