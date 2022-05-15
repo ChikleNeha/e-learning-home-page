@@ -9,7 +9,7 @@ export default [
     id : 2,
     image : "https://img.icons8.com/fluency-systems-regular/48/000000/test-failed.png",
     p1 : "ISO Grading",
-    p2 : "Are you looking to buy International Standards, guidelines, collections and checklists? They're all right here, in the ISO Store. Online Browsing Platform.",
+    p2 : "Are you looking to buy International Standards, guidelines, collections and checklists? They're all right here, in the ISO Store.",
   },
   {
     id : 3,

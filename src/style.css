@@ -73,7 +73,7 @@ button:hover {
 .the--divs {
   width: 290px;
   height: 200px;
-  background: #b197c9;
+  background: #beaad1b6;
   border-radius: 5px;
 }
 
@@ -87,6 +87,7 @@ button:hover {
   width: 260px;
   margin-top: 20px;
   margin-left: 18px;
+  letter-spacing: 0.2px;
 }
 
 .the--div--inside p {
@@ -98,4 +99,53 @@ button:hover {
 .the--div--inside h6 {
   font-size: 18px;
   margin-top: 10px;
+}
+
+.the--div2 {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: -22px;
+}
+
+.the--div2--text {
+  margin-top: 120px;
+  letter-spacing: 0.2px;
+  margin-right: 25px;
+}
+
+.view--all-courses {
+  width: 200px;
+}
+
+.the--div2--text h3 {
+  color: #7050c1;
+}
+
+.the--div2--text h1 {
+  margin-bottom: -10px;
+}
+
+.the--div2--text p {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.courses {
+  width: 340px;
+  height: 400px;
+  background: #7050c1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.the--courses--data {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 70px;
+}
+
+.courses--data--outer--div {
+  display: flex;
+  justify-content: center;
 }

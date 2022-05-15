@@ -2,6 +2,9 @@ import React from "react";
 import Nav from './Nav'
 import data from './data'
 import Div from './Div'
+import Div2 from './Div2'
+import Courses from './Courses'
+import coursesData from './coursesData'
 
 export default function Home() {
 
@@ -12,6 +15,16 @@ export default function Home() {
       />
     )
   })
+
+  const newCoursesData = coursesData.map( item => {
+    return (
+      <Courses
+      item = {item}
+      />
+    )
+  })
+
+  
 
   return (
     <div>
@@ -29,9 +42,14 @@ export default function Home() {
                     <button>Contact</button>
                 </div>
             </div>
-            <h4>Browse top essential career courses</h4>
             <div className="new--data">
                {newData}
+            </div>
+            <Div2 />
+            <div className="courses--data--outer--div">
+              <div className="the--courses--data">
+                {newCoursesData}
+              </div>
             </div>
             
         </div>
