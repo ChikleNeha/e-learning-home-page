@@ -6,6 +6,7 @@ import Div2 from './Div2'
 import Courses from './Courses'
 import coursesData from './coursesData'
 import Benefits from './Benefits'
+import Div6 from './Div6'
 
 export default function Home() {
 
@@ -32,7 +33,7 @@ export default function Home() {
         <div className="home">
             <Nav />
             <div className="home--body">
-                <img src="https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg?t=st=1652269943~exp=1652270543~hmac=6f11da7f46beb6efc992f56f7864c9357437b47510f2c84b31beef666261832a&w=740" width="690px"/>
+                <img src="https://img.freepik.com/free-vector/web-development-programming-languages-css-html-it-ui-programmer-cartoon-character-developing-website-coding-flat-illustration-banner_128772-898.jpg?w=740" width="690px"/>
                 <div  className="image--text1">
                     <div className="investigating--text--block">
                         <h1>Investing in</h1> 
@@ -53,6 +54,7 @@ export default function Home() {
               </div>
             </div>
             <Benefits />
+            <Div6 />
         </div>
     </div>
 

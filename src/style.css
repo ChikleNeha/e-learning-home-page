@@ -105,7 +105,7 @@ button:hover {
   display: flex;
   margin-top: 100px;
   margin-bottom: 150px;
-  margin-left: -22px;
+  margin-left: 60px;
 }
 
 .the--div2--text {
@@ -223,4 +223,12 @@ button:hover {
 
 .benefits--whole--div {
   margin-top: 150px;
+}
+
+#div6--text {
+  margin-left: 40px;
+}
+
+#div6 img {
+  margin-left: 40px;
 }
