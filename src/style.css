@@ -104,7 +104,7 @@ button:hover {
 .the--div2 {
   display: flex;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   margin-left: -22px;
 }
 
@@ -134,9 +134,10 @@ button:hover {
 .courses {
   width: 340px;
   height: 400px;
-  background: #7050c1;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  background: #7050c173;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(83, 78, 92, 0.753);
+  margin-top: 40px;
 }
 
 .the--courses--data {
@@ -148,4 +149,9 @@ button:hover {
 .courses--data--outer--div {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
+}
+
+#the--course--image {
+  border-radius: 5px 5px 0px 0px;
 }
