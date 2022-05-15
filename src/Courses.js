@@ -3,7 +3,11 @@ import React from 'react'
 export default function Courses(props) {
   return (
     <div className="courses">
-      <h1>{props.item.id}</h1>
+      <div className="the--image">
+        <img src={props.item.Image} width="340px"/>
+      </div>
+      {props.item.name}
+      {props.item.description}
     </div>
   )
 }
