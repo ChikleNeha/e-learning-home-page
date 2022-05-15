@@ -234,11 +234,16 @@ button:hover {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  color: #2a233a;
+  background: #2a233a;
+  color: rgb(211, 194, 238);
+  height: 200px;
 }
 
 .footer h1 {
   font-size: 23px;
+}
+
+.footer--inside--div {
+  display: flex;
+  justify-content: space-around;
 }
