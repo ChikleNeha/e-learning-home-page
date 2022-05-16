@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from './Nav'
 import data from './data'
 import Div from './Div'
 import Div2 from './Div2'
@@ -7,7 +6,6 @@ import Courses from './Courses'
 import coursesData from './coursesData'
 import Benefits from './Benefits'
 import Div6 from './Div6'
-import Footer from './Footer'
 
 export default function Home() {
 
