@@ -39,7 +39,7 @@ p {
 
 .home--page {
   background: transparent;
-  box-shadow: .2px .2px 20px #888888;
+  box-shadow: .2px .2px 25px #888888;
   height: 70px;
 }
 .image--text1 {
@@ -72,9 +72,7 @@ button {
   color: white;
 }
 button:hover {
-  color: #7050c1;
-  border: 1px solid #7050c1;
-  background: transparent;
+  background: #997be6;
 }
 
 .the--divs {
