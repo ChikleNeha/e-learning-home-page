@@ -193,7 +193,7 @@ button:hover {
 }
 
 #h3--tag--heading--text {
-  color: #11003d;
+  color: #7050c1;
   margin-bottom: -5px;
 }
 
@@ -319,3 +319,64 @@ button:hover {
   color: #100330;
 }
 
+#contact--us {
+  font-size: 45px;
+  margin-top: 60px;
+}
+
+.phone--props--div {
+  display: flex;
+  gap: 20px;
+}
+
+.new--contact--data--div {
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.3px;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.new--contact--data--div h1 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: -9px;
+}
+
+.new--contact--data--div p {
+  font-size: 14px;
+}
+
+.inputs--and--button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.inputs--and--button input {
+  width: 550px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1.5px solid #acacac;
+  border-radius: 5px;
+}
+
+.inputs--and--button button {
+  width: 550px;
+}
+
+.sign--up {
+  display: flex;
+  margin-top: -30px;
+}
+
+#comment--input {
+  height: 100px;
+  text-align: top;
+}
+
+.the--whole--sign--up--component {
+  margin-top: 170px;
+  margin-bottom: 100px;
+}
