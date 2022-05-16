@@ -1,14 +1,15 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 export default function Nav() {
   return (
     <div className="home--page">
     <h1 id="logo">E-Online.</h1>
     <div className="header">
-        <a className="a--tag" href="/">Home</a>
-        <a className="a--tag"  href='/'>Category</a>
-        <a className="a--tag"  href='/'>Courses</a>
-        <a className="a--tag"  href='/'>Blog</a>
+        <Link className="a--tag" to='/' activeStyle>Home </Link>
+        <Link className="a--tag"  to='/CoursesComponent' activeStyle>Courses</Link>
+        <Link className="a--tag"  to='/About' activeStyle>About</Link>
+        <Link className="a--tag"  to='/Contact' activeStyle>Contact</Link>
         <button>Sign Up</button>
     </div>
   </div>
