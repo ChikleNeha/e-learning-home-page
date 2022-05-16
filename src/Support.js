@@ -9,7 +9,7 @@ export default function Support() {
         <p>Enter Learning is an online learning platform that enables students to revise, practice and prepare for tests in an intuitive and measurable.</p>
       </div>
       <div className="sign--up">
-        <img src="https://img.freepik.com/free-vector/concept-script-coding-programming-php-python-javascript-other-languages_180816-218.jpg?w=740" width="550px"/>
+        <img src="https://img.freepik.com/free-vector/color-modern-illustration-web_145666-925.jpg?w=740" width="600px"/>
         <div className="inputs--and--button">
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />

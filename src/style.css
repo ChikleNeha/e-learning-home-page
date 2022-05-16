@@ -39,7 +39,7 @@ p {
 
 .home--page {
   background: transparent;
-  box-shadow: .2px .2px 25px #888888;
+  box-shadow: .2px .2px 20px #888888;
   height: 70px;
 }
 .image--text1 {
@@ -358,6 +358,7 @@ button:hover {
   margin-bottom: 30px;
   border: 1.5px solid #acacac;
   border-radius: 5px;
+  outline: none;
 }
 
 .inputs--and--button button {
@@ -369,6 +370,9 @@ button:hover {
   margin-top: -30px;
 }
 
+.sign--up img {
+  margin-top: -44px;
+}
 #comment--input {
   height: 100px;
   text-align: top;
