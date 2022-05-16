@@ -304,5 +304,16 @@ button:hover {
 }
 
 .teachers--img--name img {
-    border-radius: 75%;
+    border-radius: 95vh 35vw;
+    margin-top: 60px;
+    margin-bottom: -19px;
 }
+
+.teachers {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 22px;
+  color: #100330;
+}
+
