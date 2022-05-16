@@ -1,6 +1,7 @@
 import React from 'react'
 import teachersData from './teachersData'
 import Teachers from './Teachers'
+import Div6 from './Div6'
 
 export default function About(){
 
@@ -41,6 +42,7 @@ export default function About(){
         <div className="teachers">
           {newTeachersData}
         </div>
+        <Div6 />
 
     </div>
     
