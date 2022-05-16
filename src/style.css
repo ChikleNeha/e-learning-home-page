@@ -3,6 +3,13 @@ body {
   margin: 0px;
 }
 
+h1 {
+  color: #11003d;
+}
+
+p {
+  color: #100330;
+}
 .a--tag {
   text-decoration: none;
   margin-right: 34px;
@@ -240,8 +247,12 @@ button:hover {
 
 .footer h1 {
   font-size: 23px;
+  color: rgb(211, 194, 238);
 }
 
+.footer p {
+  color: rgb(211, 194, 238);
+}
 .footer--inside--div {
   display: flex;
   justify-content: space-around;
@@ -270,4 +281,28 @@ button:hover {
 
 #courses--nav--component--outer--div p {
   margin-right: 15px;
+}
+
+.about--us--page {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  letter-spacing: 0.4px;
+}
+
+.about--us--page h1 {
+  font-size: 37px;
+  margin-top: -20px;
+}
+
+#the--vector--small--image {
+  margin-top: -150px;
+  margin-bottom: 30px;
+  margin-left: 170px;
+}
+
+.teachers--img--name img {
+    border-radius: 75%;
 }
