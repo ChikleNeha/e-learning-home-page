@@ -1,20 +1,19 @@
 import React from 'react'
-import Courses from './Courses'
 import coursesData from './coursesData'
+import CoursesProps from './CoursesProps'
 
-export default function CoursesComponent(){
+export default function CoursesComponent(props){
 
-  const newCoursesData = coursesData.map( item => {
+  const nData = coursesData.map( item => {
     return (
-      <Courses
-      item = {item}
-      />
+      <CoursesProps
+        item = {item}
+        />
     )
   })
-
   return (
-  <div className="the--courses--data">
-    {newCoursesData}
-  </div>
+    <div>
+      {nData}
+    </div>
   )
 }

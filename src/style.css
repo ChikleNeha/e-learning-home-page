@@ -156,7 +156,7 @@ button:hover {
 }
 
 #the--course--image {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .courses h1 {
@@ -245,4 +245,29 @@ button:hover {
 .footer--inside--div {
   display: flex;
   justify-content: space-around;
+}
+
+.courses--nav--component {
+  display: flex;
+  gap: 30px;
+  border: 2px solid #11003d;
+  border-radius: 5px;
+  width: 1000px;
+}
+
+#courses--nav--component--outer--div {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.3px;
+  margin-bottom: 100px;
+}
+
+#courses--nav--component--outer--div h1 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+#courses--nav--component--outer--div p {
+  margin-right: 15px;
 }
